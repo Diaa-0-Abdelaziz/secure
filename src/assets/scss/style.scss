@@ -1,0 +1,37 @@
+@import "layout";
+@import "business-menu";
+@import "media";
+
+//@import "~bootstrap/scss/bootstrap";
+@import "missed-BS.css";
+
+@media (min-width: 1400px) {
+  [xxl="3"]{
+    width: 25%;
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+.swal2-icon.swal2-warning {
+  height: 60px;
+  width: 60px;
+  font-size: 32px;
+  line-height: 1.5em;
+  margin: 20px;
+}
+
+
+.page-container .card{
+  border: 1px #eee solid !important;
+}
+.has-danger {
+  #dropzone, .input-tel__label input {
+    background: #ffc1a4;
+  }
+}
+.picture-container{
+  max-width: 100%;
+}

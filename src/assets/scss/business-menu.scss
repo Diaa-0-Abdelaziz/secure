@@ -1,0 +1,146 @@
+.business-menu{
+  .form-group{
+    margin: 0;
+    input, textarea{
+      border: 1px dashed #eee;
+    }
+  }
+  .el-upload{
+    width: 100%;
+    .category{
+      img{
+        height: 105px;
+      }
+    }
+  }
+  .category{
+    .actions{
+      .btn{
+        font-size: 11px;
+        padding: 10px 20px;
+      }
+    }
+  }
+  .data-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .image-holder{
+      border: 1px dashed #eee;
+      max-width: 150px;
+      height: 105px;
+      background: #e0e0e0;
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    .entity-data{
+      flex-basis: calc(100% - 200px);
+    }
+    .actions{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 150px;
+      *{
+        height: 100%;
+      }
+    }
+  }
+  .entity-data{
+    input, textarea{
+      font-size: .8rem;
+    }
+  }
+  .item-img{
+    border-radius: 3px 3px 0 0 !important;
+    object-fit: cover;
+    width: 100%;
+    @media all and (min-width: 576px) and (max-width: 769px){
+      height: 120px;
+    }
+  }
+  .item{
+    width: 100%;
+    .image-holder{
+      align-items: stretch;
+      background: #c0c0c0;
+      @media all and (min-width: 576px) and (max-width: 769px){
+        height: 120px;
+      }
+      .picture{
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  .row>[class^="col-"]{
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .card-body{
+    background: #f1f1f1;
+  }
+  .item-actions{
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    z-index: 1;
+    button{
+      background: #ffffffaa;
+      &:hover{
+        svg{
+          fill: #fff;
+        }
+      }
+    }
+  }
+  .flip-list-move {
+    transition: transform 0.5s;
+  }
+  .no-move {
+    transition: transform 0s;
+  }
+  .ghost {
+    opacity: .5 !important;
+  }
+  .list-group {
+    min-height: 20px;
+  }
+  .list-group-item {
+    cursor: move;
+  }
+  .list-group-item i {
+    cursor: pointer;
+  }
+  .btn-outline-primary{
+    border-style: dashed !important;
+    border-width: 1px !important;
+  }
+  .border-dashed{
+    border-style: dashed !important;
+    border-width: 1px !important;
+  }
+  .add-item-wrapper{
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 150px;
+    &.with-items{
+      .btn{
+        height: 25%;
+      }
+    }
+  }
+  .category{
+    .picture-container{
+      width: 100%;
+    }
+    .el-upload-list{
+      position: absolute;
+    }
+  }
+}

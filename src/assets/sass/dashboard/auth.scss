@@ -1,0 +1,96 @@
+@import "../paper/fullpage";
+.auth-logo{
+  text-align: center;
+  margin-bottom: 8vh;
+  img{
+    width: 250px;
+  }
+}
+.login-page , .register-page{
+  .card-login , .card-register{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.81);
+    margin: 0 auto;
+    color: #fff;
+
+    h3 {
+      margin: 0 20px 4px;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.6em;
+    }
+
+    .btn-wd {
+      min-width: 180px;
+    }
+
+    .key-icon {
+      width: 25px;
+    }
+
+    .card-footer {
+      padding: 0 15px;
+      .btn {
+        font-weight: 800;
+        font-size: 17px;
+        margin-top: 0;
+      }
+    }
+    a{
+      color:#fff;
+      text-decoration: underline;
+    }
+  }
+
+  .form-control {
+    background-color: #000000a6;
+    border: 1px solid #484848;
+  }
+
+  .input-group-text {
+    background-color: black !important;
+    border: 1px solid #484848;
+    height: 40px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  i{
+    color: white;
+  }
+  input,select {
+    color: white !important;
+    &::placeholder {
+      color: #9d9d9d;
+      opacity: 1;
+    }
+  }
+  nav{
+    margin-top: -140px !important;
+  }
+  .btn-warning{
+    width: 300px;
+    max-width: 100%;
+    background: #942f00;
+    &:hover{
+      background: #c23e00 !important;
+    }
+  }
+  .social button{
+    margin: 8px 6px;
+  }
+  .show-password{
+    position: absolute;
+    right:10px;
+    top:10px;
+    z-index: 10;
+    cursor: pointer;
+  }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+  color: #fff !important;
+  -webkit-box-shadow: 0 0 0 30px #525252 inset !important;
+}

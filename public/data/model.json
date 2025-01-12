@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "nameId": 1,
+  "companyId": 1,
+  "status": "active",
+  "carTypeId": 1,
+  "createdAt":"2021-05-30",
+  "updatedAt":"2021-05-30",
+  "deletedAt": null,
+  "name": {
+    "en":"Lancer",
+    "ar":"لانسر"
+  },
+  "company": {
+    "id": 1,
+    "nameId": 1,
+    "foundedAt": "2010-2-30",
+    "status": "active",
+    "website": "www.trycar.com",
+    "logo": "",
+    "createdAt": "2021-05-30",
+    "updatedAt": "2021-05-30",
+    "deletedAt": null,
+    "name": {
+      "en": "Mitsubishi",
+      "ar": "متسوبيشي"
+    }
+  },
+  "type": {
+    "id": 1,
+    "nameId": 1,
+    "deletedAt": null,
+    "name": {
+      "en": "Luxery",
+      "ar": "رفاهية"
+    }
+  }
+}

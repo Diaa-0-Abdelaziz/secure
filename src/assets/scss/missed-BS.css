@@ -1,0 +1,27 @@
+
+.ms-1{margin-inline-start: .25rem !important;}.me-1{margin-inline-end: .25rem !important;}
+.ms-2{margin-inline-start: .5rem !important;}.me-2{margin-inline-end: .5rem !important;}
+.ms-3{margin-inline-start: 1rem !important;}.me-3{margin-inline-end: 1rem !important;}
+.ms-4{margin-inline-start: 1.5rem !important;}.me-4{margin-inline-end: 1.5rem !important;}
+.ms-5{margin-inline-start: 2rem !important;}.me-5{margin-inline-end: 2rem !important;}
+
+.ps-1{  padding-inline-start: .25rem !important;}.pe-1{  padding-inline-end: .25rem !important;}
+.ps-2{  padding-inline-start: .5rem !important;}.pe-2{  padding-inline-end: .5rem !important;}
+.ps-3{  padding-inline-start: 1.0rem !important;}.pe-3{  padding-inline-end: 1.0rem !important;}
+.ps-4{  padding-inline-start: 1.5rem !important;}.pe-4{  padding-inline-end: 1.5rem !important;}
+.ps-5{  padding-inline-start: 2rem !important;}.pe-5{  padding-inline-end: 2rem !important;}
+
+
+.padding-1 {
+  padding: .25em !important;
+}
+.fw-bold{
+  font-weight: 800;
+}
+
+.text-sm {font-size: .8em;}
+
+.select-sm {
+  font-size: .8em;
+  height: calc(1.5em + 1rem + 4px);
+}

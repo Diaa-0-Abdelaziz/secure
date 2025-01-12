@@ -1,0 +1,22 @@
+
+.vue-dropzone.dropzone{
+  border: 1px dashed #eeeeee ;
+  min-height: auto ;
+}
+
+.dropzone.dz-clickable{
+  padding: 6px;
+}
+.dropzone .dz-preview.dz-image-preview{
+  margin: 6px;
+}
+.dropzone .dz-preview.dz-image-preview{
+  //height: 150px;
+}
+.dropzone .dz-preview .dz-image img{
+  //height: 150px !important;
+  object-fit: cover !important;
+}
+#dropzone{
+  text-align: center;
+}

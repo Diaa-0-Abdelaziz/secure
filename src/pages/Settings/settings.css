@@ -1,0 +1,30 @@
+
+.el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap > .el-form-item__label:before,
+.el-form-item.is-required:not(.is-no-asterisk) > .el-form-item__label:before {
+  content: '';
+}
+
+.el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap > .el-form-item__label:after,
+.el-form-item.is-required:not(.is-no-asterisk) > .el-form-item__label:after {
+  content: '*';
+  color: #F56C6C;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.el-form-item__label {
+  text-align: start;
+}
+
+.localized-nav {
+  max-width: 160px;
+}
+.select-business{
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  font-size: 2rem;
+}
+.select-business select{
+  font-size: 1rem;
+}

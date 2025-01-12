@@ -1,0 +1,81 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.sidebar-btn{
+  position: fixed;
+  left: 0;
+  top:30px;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.no-margin{
+  margin: 0;
+}
+.no-border{
+  border: 0 !important;
+}
+.br-0{
+  border-radius: 0;
+}
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 100%;
+  }
+}
+.nav-tabs{
+  border-bottom: 0;
+}
+.mt--10{
+  margin-top: -10px !important;
+}
+.mt--20{
+  margin-top: -20px !important;
+}
+.mt--45{
+  margin-top: -45px !important;
+}
+.center-image{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+.pull-end{
+  float: right;
+}
+.back-btn{
+  float: left;
+}
+.brt-0{
+  border-top-left-radius:0 !important;
+  border-top-right-radius:0 !important;
+}
+.el-upload.el-upload--text{
+  width: 100%;
+}
+
+.choose-pic{
+  display: block;
+  text-align: center !important;
+  width: 100%;
+  background: #eeeeeeaa;
+}
+#el-upload .el-upload{
+  display: block !important;
+}
+#el-upload{
+  width: 100% !important;
+  display: block !important;
+}
+#el-upload > div , #el-upload > div > div {
+  width: 100% !important;
+  display: block !important;
+}
+.el-upload-list__item-name,.el-icon-close,.el-icon-close-tip,.el-upload-list__item-status-label{
+  display: none !important;
+}

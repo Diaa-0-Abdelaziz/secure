@@ -1,0 +1,319 @@
+.page-container {
+  .el-input input {
+    border: 1px solid #DDDDDD !important;
+    background: #fff !important;
+
+    &:hover {
+      color: #000 !important;
+    }
+  }
+}
+
+.vc-chrome {
+  position: absolute;
+  z-index: 9;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.swal2-icon .swal2-icon-content {
+  font-size: 1.2em !important;
+  font-weight: 800;
+}
+
+.rounded-lg {
+  border-radius: .5rem !important;
+}
+
+.has-border {
+  border: #eee 1px solid;
+}
+
+.border-1 {
+  border: #eee 1px solid;
+}
+
+.el-date-editor--date input {
+  padding: 10px 30px !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */
+{
+  opacity: 0;
+}
+
+.page-container.full-page-width > h4.card-title {
+  background: #f8f9fa;
+  padding: 20px 46px !important;
+  margin: -25px -48px 30px;
+  color: #323230;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.card-sub-title {
+  font-size: 20px;
+}
+
+.vue-swatches__swatch {
+  border: #eee 1px solid;
+}
+
+.vue-swatches__container {
+  background: rgb(243, 243, 243);
+}
+
+.text-align-right {
+  text-align: right;
+
+  input, textarea {
+    direction: rtl;
+  }
+}
+
+.border-radius-0 {
+  border-radius: 0 !important;
+}
+
+.card form label, .card form h6 {
+  margin-bottom: 4px;
+  padding-bottom: 0;
+}
+
+.img-small img {
+  width: 140px;
+}
+
+.fs-3 {
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+.hidden {
+  display: none;
+}
+
+#map-picker {
+  height: 300px;
+}
+
+.daterangepicker.show-ranges.show-weeknumbers,
+.daterangepicker.show-ranges {
+  min-width: auto !important;
+}
+
+.country-selector.has-hint .country-selector__label,
+.country-selector.has-value .country-selector__label,
+.input-tel.has-hint .input-tel__label,
+.input-tel.has-value .input-tel__label {
+  transform: translateY(-5px) !important;
+}
+
+.checkbox-container > span > div {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 0;
+  margin-left: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkbox-container > span > div div {
+  flex-basis: 10%;
+}
+
+.checkbox-container > span > div label {
+  flex-basis: 90%;
+  padding-top: 0;
+}
+
+.sidebar a.active {
+  color: $warning-color !important;
+
+  i {
+    color: $warning-color !important;
+  }
+}
+
+.language-toggle {
+  margin-top: 3px !important;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.ps-0 {
+  padding-inline-start: 0;
+}
+
+.pe-0 {
+  padding-inline-end: 0;
+}
+
+.ps-1 {
+  padding-inline-start: .25em;
+}
+
+.ps-2 {
+  padding-inline-start: .5em;
+}
+
+.pe-1 {
+  padding-inline-end: .25em;
+}
+
+.pe-2 {
+  padding-inline-end: .5em;
+}
+
+.mt--10 {
+  margin-top: -10px !important;
+}
+
+.mt--20 {
+  margin-top: -20px !important;
+}
+
+.mt--60 {
+  margin-top: -60px !important;
+}
+
+.default-row td {
+  background: #fafafa;
+}
+
+.order-map #map-picker {
+  height: 430px;
+}
+
+.bordered-end {
+  border-inline-end: 1px solid #eee !important;;
+}
+
+.el-table thead th.car-header {
+  background: #fafafa !important;
+}
+
+.pull-end {
+  float: right;
+}
+
+.pull-start {
+  float: left;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-180 {
+  width: 180px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.el-select .el-input:hover .el-input__icon, .el-select .el-input:hover input {
+  color: #656565 !important;
+
+  &::placeholder {
+    color: #656565;
+  }
+}
+
+#search-place {
+  font-size: 16px;
+  line-height: 24px;
+  border: #eee 1px solid;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+.vue-swatches__trigger {
+  border: #cccccc 1px solid;
+}
+
+.color-show {
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  text-shadow: 0 0 8px #000;
+  display: inline-block;
+  border: #eee 1px solid;
+  padding: 5px 8px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.form-check-radio .form-check-sign::before,
+.form-check-radio input[type="radio"]:checked + .form-check-sign::after {
+  top: 0;
+}
+
+.el-carousel__item {
+  display: flex;
+  align-items: center;
+}
+
+.el-table .td-actions {
+  button.btn {
+    margin-right: 5px;
+  }
+}
+
+.el-table_1_column_1 b {
+  white-space: nowrap;
+}
+
+.vue-treeselect label {
+  font-size: 1.1em;
+}
+.form-group,.el-form-item{
+  margin-bottom: 10px;
+}
+
+.no-location{
+  font-size: 18px;
+  height: 400px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b9b9b9;
+  font-weight: 800;
+}
+.el-form-item {
+  .el-form-item__content {
+    line-height: inherit;
+  }
+  .el-form-item__error {
+  }
+  .form-group{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+.country-selector__label{
+  margin-top: 6px;
+}
+.el-form-item__error{
+  position: relative;
+}
+.el-table .cell{
+ word-break: break-word;
+}
+.text-muted{
+  color: #9a9a9a;
+}
